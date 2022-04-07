@@ -1,0 +1,102 @@
+* {
+	font-family: "Nunito Sans"
+}
+
+body {
+	background-color: whitesmoke;
+	background-image: url('background.jpg');
+}
+
+.wrapper{
+	/*border: 2px solid red;*/
+	margin: 0px 200px;
+	height: 100%;
+	color: white;
+	}
+
+.color, .fonts, .Text_styles {
+	padding: 10px;
+}
+
+.color-div {
+	width: 440px;
+	height: 100px;
+	margin: 0px 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	display: inline-block;
+	font-size: 17px;
+	font-weight: 900;
+}
+
+.color h1, .fonts h1, .Text_styles > h1 {
+	text-align: center;
+}
+
+#blue {
+ 	background-color: #2d5dcc;
+}
+
+#pink {
+	background-color: #d957d9;
+}
+
+#green {
+	background-color: #4FE0B0;
+}
+
+#beige {
+	background-color: #efd9ca;
+}
+
+.fonts{
+	margin-top: 15px;
+}
+
+.font-div {
+	width: 600px;
+	height: 200px;
+	margin: 0px 20px;
+	margin-bottom: 20px;
+	text-align: start;
+	display: inline-block;
+	font-size: 17px;
+
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.italic {
+	font-style: italic;
+}
+
+#Sourcecodepro p{
+	font-family: "Source Code Pro";
+	color: white;
+}
+
+#Nunitosans p{
+	font-family: "Nunito Sans";
+	color: white;
+}
+
+#Poppins p{
+	font-family: "Poppins";
+	color: white;
+}
+
+.fonts h2 {
+	text-decoration: underline;   
+}
+
+.Text_styles {
+	margin-top: 15px;
+	padding: 10px;
+	background: linear-gradient(0deg, rgba(0,0,0,0.9640231092436975) 0%, rgba(46,64,83,1) 49%) ;
+}
+
+.color, .fonts {
+	background: linear-gradient(0deg, rgba(0,0,0,0.9640231092436975) 0%, rgba(46,64,83,1) 49%);
+}
